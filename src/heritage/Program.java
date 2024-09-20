@@ -3,13 +3,18 @@ package heritage;
 public class Program {
     public static void main(String[] args){
 
-        for(int i = 0; i <= 15; i++){
-            String out = "";
-            for(int j = 0; j < i; j++){
-                out += "*";
-            }
-            System.out.println(out);
-        }
+        Account x = new Account(1020, "Alex", 1000.0);
+        Account y = new SavingsAccount(1023, "Maria", 1000.0, 0.01);
+        x.withdraw(50.0);
+        y.withdraw(50.0);
+        System.out.println("X: "+x.getBalance()+ '\n' + "Y: "+y.getBalance());
+//        for(int i = 0; i <= 15; i++){
+//            String out = "";
+//            for(int j = 0; i;j <  j++){
+//                out += "*";
+//            }
+//            System.out.println(out);
+//        }
 //        Account acc1 = new Account(1001, "Alex", 1000.0);
 //        acc1.withdraw(200.0);
 //        System.out.println(acc1.getBalance());
@@ -18,17 +23,20 @@ public class Program {
 //        acc2.withdraw(200);
 //        System.out.println(acc2.getBalance());
 //
+//
 //        Account acc3 = new BusinessAccount(1003, "Bob", 1000.0, 500.5);
 //        acc3.withdraw(200);
 //        System.out.println(acc3.getBalance());
 //        Account acc = new Account(1001, "Alex", 0.0);
+//
 //        BusinessAccount bacc = new BusinessAccount(1002, "Maria", 0.0, 500.0);
 //
 //        //Upcasting subClasse para superclasse
 //        //Isso aqui não da erro, pq herança é uma relação é um, ou seja BusinessAccount é uma Account, mesma coisa com Savings
-//        Account acc1 = bacc;
-//        Account acc2 = new BusinessAccount(1003, "bob", 0.0, 200.0); // vale o "é um"
-//        Account acc3 = new SavingsAccount(1004, "Anna", 0.0, 0.01);
+//        Account acc12 = bacc;
+//        acc12.withdraw(200);
+//        Account acc23 = new BusinessAccount(1003, "bob", 0.0, 200.0); // vale o "é um"
+//        Account acc34 = new SavingsAccount(1004, "Anna", 0.0, 0.01);
 //        // É normal voce pegar um objeto da sub e atribuir para super
 //
 //        //Downcasting: SuperClasse para subClasse

@@ -29,6 +29,8 @@
     - Método: evita que o metodo sob seja sobreposto
     -Final é usado por questão de segurança e performance
 ### Polimorfismo
-    - Revisa anteiror e inicar novos estudos
+    - Pilares da OPP: Encapsulamento, Herança e Polimorfismo
+    -
+    
     
     
