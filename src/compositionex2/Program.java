@@ -25,7 +25,7 @@ public class Program {
 
         System.out.print("Enter order data");
         String Clientstatus = sc.nextLine();
-        new OrderStatus(OrderStatus.valueOf(Clientstatus));
+//        new OrderStatus(OrderStatus.valueOf(Clientstatus));
 
 
         sc.close();

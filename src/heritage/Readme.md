@@ -14,3 +14,21 @@
     - Superclasse(classe base)/ subclasse(classe derivada)
     - Herança/extensão
     - Herança é uma associação entre classes(e não entre objetos)
+### Upcasting e Downcasting
+    - Upcasting: Casting da subclasse para superclasse.OBS: tratar um objeto de um subclasse como se fosse da superclasse. apenas os metodos da superclasse são acessiveis
+    - Uso comum: Polimorfismo
+    - Dowcasting: Casting da superclasse para sublclasse
+    - Plavara instaceof
+    - Uso comum: Métodos que recebem parâmetro generico(equals)
+### Sobreposição, palavra super, anotação @Override
+    - Super é um metodo usado para acessar membros da superclasse
+### Classe e métodos final
+    - Palavra chave: final
+    - Classe: evita que a classe seja herdada
+        `public final class SavingsAccount`
+    - Método: evita que o metodo sob seja sobreposto
+    -Final é usado por questão de segurança e performance
+### Polimorfismo
+    - Revisa anteiror e inicar novos estudos
+    
+    
