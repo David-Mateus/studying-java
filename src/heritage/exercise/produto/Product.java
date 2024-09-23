@@ -10,6 +10,7 @@ public class Product {
         this.price = price;
     }
 
+
     public String getName() {
         return name;
     }
@@ -26,6 +27,6 @@ public class Product {
         this.price = price;
     }
     public String priceTag(){
-        return (getName()+ " " + getPrice());
+        return (name+ " $ " + String.format("%.2f", price));
     }
 }
